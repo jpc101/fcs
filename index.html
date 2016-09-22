@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The First Christmas Story</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="An easy to read version of the Christmas story">
+<link rel="apple-touch-icon" href="i152.png">
+<meta name="msapplication-TileImage" content="i144.png">
+<meta name="msapplication-TileColor" content="#3F51B5">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="s.css">
+</head>
+<body>
+<h1>The First Christmas Story</h1>
+<p>About 2000 years ago, when King Herod ruled Judea (now part of Israel), God sent the angel Gabriel to a young women called Mary who lived in the town of Nazareth. Mary was engaged to a man named Joseph.</p>
+<p>The angel Gabriel said to Mary: "Peace be with you! God has blessed you and is pleased with you." Mary was very surprised and wondered what it meant.</p>
+<p>Gabriel said "Don't be afraid, God has been very kind. You will become pregnant by God's Holy Spirit and have a baby boy who will be called Jesus. He will be God's Son and his kingdom will never end." Mary was afraid but she trusted God. "Let it happen as God chooses." She replied.</p>
+<button type="button" id="l1">See Mary with the Angel</button>
+<div id="i1" data-src="s1.svg" data-alt=""></div>
+<p>Joseph was worried when he found out that Mary was expecting a baby. He wondered if he should cancel the wedding. But an angel appeared to Joseph in a dream and said: "Don't be afraid to marry Mary. She has been chosen by God to be the mother of his Son. The baby will be called Jesus and he will save his people."</p>
+<p>When Joseph woke up, he did what the angel had told him to do and married Mary.</p>
+<hr>
+<p>At this time, the land where Mary and Joseph lived was part of the Roman Empire. The Emperor wanted to have a list of all the people in the empire, to make sure they paid their taxes. He ordered everyone to return to the town where their families came from, and enter their names in a register (or census) there.</p>
+<p>Mary and Joseph travelled from Nazareth to Bethlehem (about 70 miles or 110km), the town where Joseph's family came from. Joseph and Mary travelled slowly because Mary's baby was due to be born soon.</p>
+<p>When they reached Bethlehem they couldn't find anywhere to stay. So many people had come for the census, that every house was full and every bed was taken.</p>
+<p>The only shelter they could find was with the animals; in a cave, stable or the bottom floor of a house where the family animals were kept.</p>
+<p>In this unclean and probably smelly place Mary gave birth to Jesus, the Son of God.</p>
+<button type="button" id="l2">See Jesus when he was born</button>
+<div id="i2" data-src="s2.svg" data-alt=""></div>
+<p>It was the custom to wrap newborn babies in a cloth called 'swaddling clothes'. People thought it helped you grow straight arms and legs! Jesus' bed was the manger, where the animal's ate from.</p>
+<hr>
+<p>Out in the hills outside Bethlehem, some shepherds were looking after their sheep at night. Suddenly an angel appeared and the glory of God shone around the angel.</p>
+<p>The shepherds were very, very, very scared (!), but the angel said: "Don't be afraid. I have good news for you and everyone. Today, in Bethlehem, the Savior sent by God has been born. You will find him as a baby wrapped in cloth and lying in a manger."</p>
+<button type="button" id="l3">See the Shepherds with the Angel</button>
+<div id="i3" data-src="s3.svg" data-alt=""></div>
+<p>Then many more angels appeared. All the angels sang praising God: "Glory to God in highest, and peace to everyone on earth." When the angels had gone, the shepherds said to one another: "Let's go to Bethlehem and see what's happened."</p>
+<p>So the shepherds went to Bethlehem and found Mary and Joseph. The baby Jesus was lying in a manger just as they had been told. When they saw Jesus, they told everyone about the angel and the people were amazed. Then the shepherds returned to their sheep, praising God for sending his Son to be their Savior.</p>
+<hr>
+<p>When Jesus was born, a new bright star appeared in sky. Some Wise Men in a faraway country saw the star. They were very clever and studied the stars. They had read in old writings that a new star would appear when a great and special king was born. They set out to find the new king and bring him gifts.</p>
+<p>The Wise Men followed the star towards the country of Judea. When they got to the capital, Jerusalem, they asked people: "Where is the child who is born to be king of the Jews? We've seen his special star and have come to see him."</p>
+<p>When Herod heard this it made him very angry that someone might be going to take his place as king. So he called the Wise Men to the palace and tried to trick them by saying: "Follow the star until you find the new king. When you've found him, let me know, so that I can go and worship him." But Herod really had an evil plan to kill the new king and wanted to use the Wise Men to find him.</p>
+<p>The Wise Men followed the star to Bethlehem (where old writings said the king would be born). It seemed to stop right over the house where Jesus and his family now lived.</p>
+<button type="button" id="l4">See the Wise Men visiting Jesus</button>
+<div id="i4" data-src="s4.svg" data-alt=""></div>
+<p>The Wise Men found Jesus with Mary. They bowed down and worshipped him. The Wise Men spread the gifts they had brought - gold, frankincense and myrrh.</p>
+<p>In a dream God warned the Wise Men about Herod's plan, so they went home to their country in the East by a different way.</p>
+<hr>
+<p>When the Wise Men had gone, an angel appeared to Joseph in a dream and said: "Get up quickly and escape to Egypt with Jesus and Mary. Stay there until I tell you. Herod is going to try and kill Jesus." So they got up and left for Egypt, where they stayed until Herod died.</p>
+<p>When Herod realized the Wise Men had gone home, he was furious and gave orders to kill all the boys aged two or under in and around Bethlehem.</p>
+<p>After Herod had died, Joseph had another dream in which an angel appeared to him. The angel said, "You can take Jesus and Mary back to Israel, the people who tried to kill Jesus are dead."</p>
+<p>So they went back to Israel. But when he heard that Herod's son was now king of Judea, Joseph was afraid to go Jerusalem. So they returned to live in their old town of Nazareth.</p>
+<p id="foot"><a href="//www.whychristmas.com/">&copy;2016 James Cooper / whychristmas.com</a></p>
+<script src="j.js"></script>
+<script>
+(function init() {
+document.getElementById("l1").onclick = function() {
+	var imgPlaceholder = document.getElementById("i1");
+	Justlazy.lazyLoad(imgPlaceholder);
+	return false;
+};
+document.getElementById("l2").onclick = function() {
+	var imgPlaceholder = document.getElementById("i2");
+	Justlazy.lazyLoad(imgPlaceholder);
+	return false;
+};
+document.getElementById("l3").onclick = function() {
+	var imgPlaceholder = document.getElementById("i3");
+	Justlazy.lazyLoad(imgPlaceholder);
+	return false;
+};
+document.getElementById("l4").onclick = function() {
+	var imgPlaceholder = document.getElementById("i4");
+	Justlazy.lazyLoad(imgPlaceholder);
+	return false;
+};
+})();
+</script>
+</body>
+</html>
